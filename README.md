@@ -6,7 +6,7 @@
 ![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Bot-Telegram-based-GPS-monitoring-using-UART-communication
-Theft of goods is rampant in Indonesia today because it is first influenced by economic factors, then the lack of awareness from the local community in protecting their personal belongings, thus creating opportunities for thieves to be able to act. Therefore, this project was created as an effort to improve the security of goods in close proximity. In this case, the author tries to use the UART protocol on the Arduino and Wemos side. This project has been implemented and took approximately 1 month. There are 2 types of development boards used. Arduino Pro Micro is used to hold the coordinate data obtained from the sensor, then send the coordinate data to Wemos D1 Mini using UART communication protocol: Hardware Serial. While the Wemos D1 Mini is used to accommodate coordinate data from the Arduino Pro Micro using the UART communication protocol: Software Serial. Furthermore, the raw data that has been received is processed into useful information, then sent to the Telegram Bot. This Telegram bot can respond to users if there is interaction in it. The benefit of making this project is none other than to add insight. The result of this project is that the coordinates of personal items can be monitored at any time easily and quickly only through Telegram Bot, so that existing items will not be easily stolen. However, if the item is out of the router's range, it can be completely lost. To overcome this shortcoming, you can add a GSM module that comes with a SIM card in future research.
+Theft of goods is rampant in Indonesia today because it is first influenced by economic factors, then the lack of awareness from the local community in protecting their personal belongings, thus creating opportunities for thieves to be able to act. Therefore, this project was created as an effort to improve the security of goods in close proximity. In this case, the author tries to use the UART protocol on the Arduino and Wemos side. This project has been implemented and took approximately 1 month. There are 2 types of development boards used. Arduino Pro Micro is used to hold the coordinate data obtained from the sensor, then send the coordinate data to Wemos D1 Mini using UART communication protocol: Hardware Serial. While the Wemos D1 Mini is used to accommodate coordinate data from the Arduino Pro Micro using the UART communication protocol: Software Serial. Furthermore, the raw data that has been received is processed into useful information, then sent to the Telegram Bot. This Telegram bot can respond to users if there is interaction in it. The benefit of making this project is none other than to add insight. The result of this project is that the coordinates of personal items can be monitored at any time easily and quickly only through Telegram Bot, so that existing items will not be easily stolen.
 
 <br><br>
 
@@ -50,6 +50,14 @@ Theft of goods is rampant in Indonesia today because it is first influenced by e
 <br><br>
 
 ## Project Designs
+<table>
+<tr>
+<th width="840">Infrastructure</th>
+</tr>
+<tr>
+<td><img src="Assets/Documentation/Diagram/Infrastructure.jpg" alt="infrastructure"></td>
+</tr>
+</table>
 <table>
 <tr>
 <th width="420">Block Diagram</th>
@@ -343,6 +351,14 @@ Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
 
 ## Component Testing
 You can download the component test file via the following link: <a href="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/tree/master/Assets/Component%20Testing">Click Here</a>
+
+<br><br>
+
+## Notes
+<blockquote>
+   <h3><img src="https://github.com/user-attachments/assets/932b96eb-cbc7-42f1-8938-43cb431889a5" width="16" height="16"> Important</h3>
+   If the item is out of the range of the router, it can be completely lost. To overcome this shortcoming, you can add a GSM module that comes with a SIM card in future research.
+</blockquote>
 
 <br><br>
 

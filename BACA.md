@@ -6,7 +6,7 @@
 ![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Bot-Telegram-based-GPS-monitoring-using-UART-communication
-Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipengaruhi oleh faktor ekonomi, kemudian kurangnya kesadaran dari masyarakat setempat dalam menjaga barang pribadi masing-masing, sehingga menciptakan peluang bagi pencuri untuk dapat beraksi. Oleh karena itu, proyek ini dibuat sebagai upaya dalam meningkatkan keamanan barang dalam jangkauan yang dekat. Dalam hal ini, penulis mencoba menggunakan protokol UART di sisi Arduino dan Wemos. Proyek ini telah dilaksanakan dan memakan waktu kurang lebih 1 bulan. Ada 2 jenis papan pengembangan yang dipakai. Arduino Pro Micro dipakai untuk menampung data koordinat yang diperoleh dari sensor, kemudian mengirimkan data koordinat tersebut ke Wemos D1 Mini dengan menggunakan protokol komunikasi UART: Hardware Serial. Sedangkan Wemos D1 Mini dipakai untuk menampung data koordinat dari Arduino Pro Micro dengan menggunakan protokol komunikasi UART: Software Serial. Selanjutnya, data mentah yang sudah diterima itu diolah menjadi informasi yang bermanfaat, lalu dikirimkan ke Bot Telegram. Bot Telegram ini dapat merespon pengguna jika ada interaksi di dalamnya. Manfaat dari pembuatan proyek ini tidak lain adalah untuk menambah wawasan. Hasil dari proyek ini yaitu letak koordinat barang pribadi dapat dipantau sewaktu-waktu dengan mudah dan cepat hanya melalui Bot Telegram, sehingga barang yang ada tidak akan mudah dicuri. Namun, jika barang berada di luar jangkauan router, barang tersebut dapat dipastikan hilang sepenuhnya. Untuk mengatasi kekurangan ini, anda dapat menambahkan modul GSM yang disertai dengan kartu SIM di penelitian selanjutnya.
+Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipengaruhi oleh faktor ekonomi, kemudian kurangnya kesadaran dari masyarakat setempat dalam menjaga barang pribadi masing-masing, sehingga menciptakan peluang bagi pencuri untuk dapat beraksi. Oleh karena itu, proyek ini dibuat sebagai upaya dalam meningkatkan keamanan barang dalam jangkauan yang dekat. Dalam hal ini, penulis mencoba menggunakan protokol UART di sisi Arduino dan Wemos. Proyek ini telah dilaksanakan dan memakan waktu kurang lebih 1 bulan. Ada 2 jenis papan pengembangan yang dipakai. Arduino Pro Micro dipakai untuk menampung data koordinat yang diperoleh dari sensor, kemudian mengirimkan data koordinat tersebut ke Wemos D1 Mini dengan menggunakan protokol komunikasi UART: Hardware Serial. Sedangkan Wemos D1 Mini dipakai untuk menampung data koordinat dari Arduino Pro Micro dengan menggunakan protokol komunikasi UART: Software Serial. Selanjutnya, data mentah yang sudah diterima itu diolah menjadi informasi yang bermanfaat, lalu dikirimkan ke Bot Telegram. Bot Telegram ini dapat merespon pengguna jika ada interaksi di dalamnya. Manfaat dari pembuatan proyek ini tidak lain adalah untuk menambah wawasan. Hasil dari proyek ini yaitu letak koordinat barang pribadi dapat dipantau sewaktu-waktu dengan mudah dan cepat hanya melalui Bot Telegram, sehingga barang yang ada tidak akan mudah dicuri.
 
 <br><br>
 
@@ -50,6 +50,14 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 <br><br>
 
 ## Rancangan Proyek
+<table>
+<tr>
+<th width="840">Infrastruktur</th>
+</tr>
+<tr>
+<td><img src="Assets/Documentation/Diagram/Infrastructure.jpg" alt="infrastructure"></td>
+</tr>
+</table>
 <table>
 <tr>
 <th width="420">Diagram Blok</th>
@@ -343,6 +351,14 @@ Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
 
 ## Pengujian Komponen
 Anda dapat mengunduh berkas uji komponen melalui tautan berikut: <a href="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/tree/master/Assets/Component%20Testing">Klik Disini</a>
+
+<br><br>
+
+## Catatan
+<blockquote>
+   <h3><img src="https://github.com/user-attachments/assets/932b96eb-cbc7-42f1-8938-43cb431889a5" width="16" height="16"> Penting</h3>
+   Jika barang berada di luar jangkauan router, barang tersebut dapat dipastikan hilang sepenuhnya. Untuk mengatasi kekurangan ini, anda dapat menambahkan modul GSM yang disertai dengan kartu SIM di penelitian selanjutnya.
+</blockquote>
 
 <br><br>
 
