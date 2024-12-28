@@ -354,9 +354,8 @@ You can download the component test file via the following link: <a href="https:
 
 <br><br>
 
-## Notes
+<h3><img src="https://github.com/user-attachments/assets/932b96eb-cbc7-42f1-8938-43cb431889a5" width="16" height="16"> Notes :</h3>
 <blockquote>
-   <h3><img src="https://github.com/user-attachments/assets/932b96eb-cbc7-42f1-8938-43cb431889a5" width="16" height="16"> Important</h3>
    If the item is out of the range of the router, it can be completely lost. To overcome this shortcoming, you can add a GSM module that comes with a SIM card in future research.
 </blockquote>
 
