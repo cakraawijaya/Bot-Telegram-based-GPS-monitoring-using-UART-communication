@@ -354,7 +354,7 @@ Anda dapat mengunduh berkas uji komponen melalui tautan berikut: <a href="https:
 
 <br><br>
 
-<h3><img src="https://github.com/user-attachments/assets/932b96eb-cbc7-42f1-8938-43cb431889a5" width="16" height="16"> Catatan :</h3>
+## <img src="https://github.com/user-attachments/assets/932b96eb-cbc7-42f1-8938-43cb431889a5" width="16" height="16"> Catatan :
 <blockquote>
    Jika barang berada di luar jangkauan router, barang tersebut dapat dipastikan hilang sepenuhnya. Untuk mengatasi kekurangan ini, anda dapat menambahkan modul GSM yang disertai dengan kartu SIM di penelitian selanjutnya.
 </blockquote>
