@@ -42,7 +42,7 @@ Theft of goods is rampant in Indonesia today because it is first influenced by e
    <table><tr><td width="810">
    
    ```
-   https://bit.ly/CH340_USB_Driver
+   https://bit.ly/CH340_USBdriver
    ```
    
    </td></tr></table>
