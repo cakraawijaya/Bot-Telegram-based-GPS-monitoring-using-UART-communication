@@ -42,7 +42,7 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
    <table><tr><td width="810">
    
    ```
-   https://bit.ly/CH340_USB_Driver
+   https://bit.ly/CH340_USBdriver
    ```
    
    </td></tr></table>
