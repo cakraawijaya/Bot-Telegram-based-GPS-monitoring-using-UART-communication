@@ -203,9 +203,9 @@ Wemos D1 Mini Pinout Reference : <a href="Assets/Documentation/Pinout/Wemos D1 M
       How to setup the ``` Arduino Pro Micro ``` board
    
       </th></tr>
-      <tr><td colspan="2">
+      <tr><td colspan="2" width="780">
 
-      Click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```
+      Select a board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```
               
       </td></tr>
    </table><br><table>
@@ -218,11 +218,11 @@ Wemos D1 Mini Pinout Reference : <a href="Assets/Documentation/Pinout/Wemos D1 M
       How to setup the ``` Wemos D1 Mini ``` board
             
       </th></tr>
-      <tr><td colspan="2">
+      <tr><td colspan="2" width="775">
 
       • Click ``` Tools ``` section -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```.
 
-      • Then click ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Boards ``` -> ``` Wemos D1 Mini ```.
+      • Then selecting a board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Boards ``` -> ``` Wemos D1 Mini ```.
             
       </td></tr>
    </table><br>
@@ -239,7 +239,7 @@ Wemos D1 Mini Pinout Reference : <a href="Assets/Documentation/Pinout/Wemos D1 M
       How to change the speed of ``` Arduino Pro Micro ``` board
    
       </th></tr>
-      <tr><td colspan="2">
+      <tr><td colspan="2" width="780">
 
       Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```
               
@@ -254,7 +254,7 @@ Wemos D1 Mini Pinout Reference : <a href="Assets/Documentation/Pinout/Wemos D1 M
       How to change the speed of ``` Wemos D1 Mini ``` board
             
       </th></tr>
-      <tr><td colspan="2">
+      <tr><td colspan="2" width="775">
 
       Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
             
