@@ -5,7 +5,7 @@
 ![Project2](https://img.shields.io/badge/Project-%2D2-Wemos-light.svg?style=flat&logo=espressif&logoColor=white&color=%23F7DF1E)
 ![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
-# Bot-Telegram-based-GPS-monitoring-using-UART-communication
+# Bot Telegram-based GPS monitoring using UART communication
 Theft of goods is rampant in Indonesia today because it is first influenced by economic factors, then the lack of awareness from the local community in protecting their personal belongings, thus creating opportunities for thieves to be able to act. Therefore, this project was created as an effort to improve the security of goods in close proximity. In this case, the author tries to use the UART protocol on the Arduino and Wemos side. This project has been implemented and took approximately 1 month. There are 2 types of development boards used. Arduino Pro Micro is used to hold the coordinate data obtained from the sensor, then send the coordinate data to Wemos D1 Mini using UART communication protocol: Hardware Serial. While the Wemos D1 Mini is used to accommodate coordinate data from the Arduino Pro Micro using the UART communication protocol: Software Serial. Furthermore, the raw data that has been received is processed into useful information, then sent to the Telegram Bot. This Telegram bot can respond to users if there is interaction in it. The benefit of making this project is none other than to add insight. The result of this project is that the coordinates of personal items can be monitored at any time easily and quickly only through Telegram Bot, so that existing items will not be easily stolen.
 
 <br><br>
