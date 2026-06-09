@@ -14,7 +14,7 @@ Theft of goods is rampant in Indonesia today because it is first influenced by e
 | Part | Description |
 | --- | --- |
 | Development Board | • Arduino Pro Micro Leonardo ATMEGA32U4<br>• Wemos D1 Mini |
-| Code Editor | Arduino IDE |
+| Code Editor | Arduino IDE 1.8.19 (Stable Legacy Version) |
 | Application Support | Telegram Bot |
 | Driver | CH340 USB Driver |
 | Communications Protocol | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
