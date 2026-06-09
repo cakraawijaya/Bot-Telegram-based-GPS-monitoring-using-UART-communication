@@ -20,7 +20,7 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 | Protokol Komunikasi | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
 | Arsitektur IoT | 3 Lapisan |
 | Bahasa Pemrograman | C/C++ |
-| Pustaka Arduino | • SoftwareSerial (bawaan)<br>• TinyGPS++<br>• CTBot<br>• ArduinoJson |
+| Pustaka Arduino | • SoftwareSerial (bawaan)<br>• TinyGPS++ oleh Mikal Hart (Versi: 1.0.3)<br>• CTBot oleh Stefano Ledda (Versi: 2.1.11)<br>• ArduinoJson oleh Benoit Blanchon (Versi: 6.19.4) |
 | Sensor | GPS NEO6MV2 (x1) |
 | Komponen Lainnya | • Kabel USB Mikro - USB tipe A (x1)<br>• Kabel jumper (1 set)<br>• Baterai Li-ion 18650 5V (x1)<br>• Tempat baterai 1 slot (x1)<br>• Kabel Mikro USB - JST 2 pin (x1) |
 
