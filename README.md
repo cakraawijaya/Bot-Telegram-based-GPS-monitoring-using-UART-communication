@@ -20,7 +20,7 @@ Theft of goods is rampant in Indonesia today because it is first influenced by e
 | Communications Protocol | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
 | IoT Architecture | 3 Layer |
 | Programming Language | C/C++ |
-| Arduino Library | • SoftwareSerial (default)<br>• TinyGPS++<br>• CTBot<br>• ArduinoJson |
+| Arduino Library | • SoftwareSerial (default)<br>• TinyGPS++ by Mikal Hart (Version: 1.0.3)<br>• CTBot by Stefano Ledda (Version: 2.1.11)<br>• ArduinoJson by Benoit Blanchon (Version: 6.19.4) |
 | Sensor | GPS NEO6MV2 (x1) |
 | Other Components | • Micro USB cable - USB type A (x1)<br>• Jumper cable (1 set)<br>• Li-ion battery 18650 5V (x1)<br>• 1-Slot battery holder (x1)<br>• Micro USB cable - 2 pin JST (x1) |
 
