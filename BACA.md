@@ -14,7 +14,7 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 | Bagian | Deskripsi |
 | --- | --- |
 | Papan Pengembangan | • Arduino Pro Micro Leonardo ATMEGA32U4<br>• Wemos D1 Mini |
-| Editor Kode | Arduino IDE |
+| Editor Kode | Arduino IDE 1.8.19 (Versi Lama yang Stabil) |
 | Dukungan Aplikasi | Bot Telegram |
 | Driver | CH340 USB Driver |
 | Protokol Komunikasi | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
